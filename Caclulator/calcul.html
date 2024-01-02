@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="calcul.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body style="background-color:rgb(29, 29, 29);">
+  
+    <div class="d">
+    <table>
+
+        <tr>
+    <td><input type="reset" value="AC" class="size" id="reset-button"></td>
+    <td><input type="button" id="nbrd" value="/" class="size"></td>
+    <td><input type="button" id="nbrm" value="*" class="size"></td>
+    <td><input type="button" id="nbs" value="-" class="size"></td>
+        </tr>
+        <tr>
+    <td><input type="button" id="nbr7" value="7" class="size" ></td>
+    <td><input type="button" id="nbr8" value="8" class="size" ></td>
+    <td><input type="button" id="nbr9" value="9" class="size" ></td>
+    <td rowspan="2"><input type="button" id="nbra" value="+" class="ff"></td>
+        </tr>
+        <tr>
+    <td><input type="button" id="nbr4" value="4" class="size" ></td>
+    <td><input type="button" id="nbr5" value="5" class="size" ></td>
+    <td><input type="button" id="nbr6" value="6" class="size" ></td>
+        </tr>
+        <tr>
+    <td><input type="button" id="nbr1" value="1" class="size" ></td>
+    <td><input type="button" id="nbr2" value="2" class="size" ></td>
+    <td><input type="button" id="nbr3" value="3" class="size" ></td>
+    <td rowspan="2"><input type="submit" value="=" class="ff" id="submit-button"></td>
+        </tr>
+        <tr>
+    <td colspan="2"><input type="button" value="0" class="the0"></td>
+    <td><input type="button" id="nbrp" value="." class="size"></td>
+
+        </tr>
+    <br><br>
+    </table>
+    </div>
+    <br>
+    <br>
+    <div class="k">
+    <span id="display">
+    
+    </span>
+    </div>
+<script src="calcul.js"></script>
+</body>
+</html>
